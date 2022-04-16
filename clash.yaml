@@ -299,13 +299,7 @@ proxies:
   - {name: S5美国03| MIEPL|, server: ahc1beib.nodeinfo.icu, port: 1132, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk}
   - {name: S5美国04| MIEPL |, server: meb1aibe.nodeinfo.icu, port: 1133, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk}
   - {name: S5英国01| IEPL |, server: ahch4moo.nodeinfo.icu, port: 1124, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk}
-  - {name: S5香港01| MIEPL |, server: ota2wier.nodeinfo.icu, port: 7001, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk}
-  - {name: S5香港02| MIEPL |, server: feeco8oo.nodeinfo.icu, port: 7002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk}
-  - {name: S5香港03| MIEPL |, server: vahv9diw.nodeinfo.icu, port: 7003, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk}
-  - {name: S5香港04| MIEPL |, server: vureuva3.nodeinfo.icu, port: 7004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk}
-  - {name: S5香港05| IEPL |, server: quaex7oo.nodeinfo.icu, port: 7005, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk}
-  - {name: S5香港06| IEPL |, server: iqu5ujio.nodeinfo.icu, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk}
-  - {name: S5香港07| IEPL |, server: jaibio5c.nodeinfo.icu, port: 7007, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk}
+ 
   - {name: S5香港08| IEPL |, server: aemoo9wi.nodeinfo.icu, port: 7008, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk}
   - {name: S5香港09| IEPL |, server: aemoo9wi.nodeinfo.icu, port: 7008, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk}
 proxy-groups:
