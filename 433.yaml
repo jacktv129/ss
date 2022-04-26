@@ -1,0 +1,26 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 🇭🇰 香港家庭宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 4e21f169-5091-4abe-8ab5-1089e101b211}
+  - {name: 🇯🇵 日本IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 4e21f169-5091-4abe-8ab5-1089e101b211}
+  - {name: 🇸🇬 新加坡IDC宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45149, type: vmess, uuid: 4e21f169-5091-4abe-8ab5-1089e101b211, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}}
+  - {name: 🇸🇬 新加坡IDC宽频|NF解锁|V2|B01, server: hz.bgp.rx.naiun.pw, port: 45149, type: vmess, uuid: 4e21f169-5091-4abe-8ab5-1089e101b211, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}}
+  - {name: 🇸🇬 新加坡IDC宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 4e21f169-5091-4abe-8ab5-1089e101b211}
+  - {name: 🇨🇳 台湾家庭宽频|NF解锁|V2|B01, server: hz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: 4e21f169-5091-4abe-8ab5-1089e101b211, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}}
+  - {name: 🇯🇵 日本IDC宽频|NF解锁|V2|B01, server: hz.bgp.rx.naiun.pw, port: 45184, type: vmess, uuid: 4e21f169-5091-4abe-8ab5-1089e101b211, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}}
+  - {name: 🇯🇵 日本IDC宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 4e21f169-5091-4abe-8ab5-1089e101b211}
+  - {name: 🇸🇬 新加坡IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 4e21f169-5091-4abe-8ab5-1089e101b211}
+  - {name: 🇨🇳 台湾家庭宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: 4e21f169-5091-4abe-8ab5-1089e101b211, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}}
+  - {name: 🇭🇰 香港家庭宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 4e21f169-5091-4abe-8ab5-1089e101b211}
+  - {name: 🇨🇳 台湾家庭宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 4e21f169-5091-4abe-8ab5-1089e101b211}
+  - {name: 🇯🇵 日本IDC宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45184, type: vmess, uuid: 4e21f169-5091-4abe-8ab5-1089e101b211, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}}
+  - {name: 🇨🇳 台湾家庭宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 4e21f169-5091-4abe-8ab5-1089e101b211}
+  - {name: 🇺🇸 美国IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45190, type: ss, cipher: chacha20-ietf-poly1305, password: 4e21f169-5091-4abe-8ab5-1089e101b211}
+  - {name: 🇺🇸 美国IDC宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45190, type: ss, cipher: chacha20-ietf-poly1305, password: 4e21f169-5091-4abe-8ab5-1089e101b211}
+  - {name: 🇺🇸 美国IDC宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45194, type: vmess, uuid: 4e21f169-5091-4abe-8ab5-1089e101b211, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}}
+  - {name: 🇺🇸 美国IDC宽频|NF解锁|V2|B01, server: hz.bgp.rx.naiun.pw, port: 45194, type: vmess, uuid: 4e21f169-5091-4abe-8ab5-1089e101b211, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}}
+  - {name: 🇺🇸 免费|美国1, server: node.relay.az.naiun.pw, port: 25082, type: vmess, uuid: 4e21f169-5091-4abe-8ab5-1089e101b211, alterId: 0, cipher: auto, tls: true, servername: node.free.usa.naiun.pw, network: ws, ws-opts: {path: /, headers: {Host: node.free.usa.naiun.pw}}}
